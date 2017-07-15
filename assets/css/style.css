@@ -1,0 +1,353 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+*:active{
+	outline: none;
+}
+
+body{
+	font-family: helvetica, sans-serif;
+}
+
+#mainPage{
+	background: url(../images/1.jpg) no-repeat fixed;
+	-webkit-background-size: cover;
+	background-size: cover;
+	color: #fff;
+	-moz-user-select: none; 
+}
+
+h1,h2,h3,h4,h5,h6{
+	font-family: "Ubuntu", helvetica, sans-serif;
+}
+
+li,a{
+	color: #37BC98;
+}
+a:hover{
+	text-decoration: none;
+}
+
+#login input,
+#signup input,
+button{
+	border: none;
+	padding: 10px;
+}
+
+.container{
+	width: 90%;
+	margin: auto;
+}
+
+.col-2{
+	width: 50%;
+	float: left;
+	
+}
+
+.btn-1{
+	font-style: italic;
+	font-weight: bold;
+	padding: 10px 20px;
+	color: #fff;
+	background-color: #37BC98;
+}
+
+.btn-1:hover{
+	animation: 2s linear infinite blink;
+	cursor: pointer;
+}
+
+#login a,
+#rhs a{
+	font-style: italic;
+}
+
+/*----------------------------*
+ *#header-mp styling
+ *----------------------------*/
+
+#header-mp{
+	display: table;
+	width: 100%;
+}
+
+#header-mp,
+footer{
+	background-color: rgba(0,0,0,0.9);
+}
+
+#branding,
+#login{
+	margin: 30px 0 5px 0;
+}
+
+#branding{
+	float: left;
+}
+
+#branding a{
+	color: #fff;
+	text-decoration: none;
+	opacity: 0.6;
+}
+#branding:hover > a{
+	opacity: 1.0;
+}
+
+#login{
+	float: right;
+}
+
+#login li{
+	list-style-type: none;
+	float: left;
+	margin: 0 5px;
+}
+
+#login input[type="password"]{
+	margin-bottom: 10px;
+}
+
+/*----------------------------*
+ *Body styling
+ *----------------------------*/
+#showcase{
+	height: 100vh;
+}
+.overlay{
+	background-color: rgba(0,0,0,0.6);
+	
+}
+
+/*--------LHS Styling--------*/
+
+#lhs{
+	text-align: center;
+	color: rgba(225,225,225,0.8);
+}
+
+#lhs i{
+	font-size: 20em;
+	padding: 50px 50px 0 50px;
+	animation: 1.2s infinite bounce;
+}
+
+#lhs p{
+	font-style: italic;
+	font-size: 1.4em;
+	padding: 35px;
+}
+
+/*--------RHS Styling--------*/
+
+#rhs{
+	margin-left: 135px;
+	padding: 0 0 20px 25px;
+	background-color: rgba(0,0,0,0.5);
+}
+#rhs div{
+	padding: 10px 0 0 0;
+}
+
+#signuptxt h2{
+	font-size: 2.5em;
+}
+#signuptxt p{
+	font-size: 1em;
+}
+
+#emailBlock input{
+	width: 84.5%;
+}
+
+#selectionBlock h3{
+	padding: 0 0 10px 0;
+}
+
+#selectionBlock select{
+	border: none;
+	padding: 5px 15px;
+	margin-right: 10px;
+}
+
+#sex-block label{
+	margin-right: 20px;
+}
+
+#selectionBlock,
+#sex-block{
+	margin: 10px 0 0 0;
+}
+
+#signuptxt,
+#policy{
+	padding: 5px 20px 5px 0;
+}
+
+#policy{
+	font-size: 0.8em;
+}
+
+/*----------------------------*
+ *Footer styling
+ *----------------------------*/
+
+footer{
+	clear: both;
+	text-align: center;
+	padding: 5px;
+}
+
+
+
+
+/*----------------------------*
+ *Rest of the pages styling
+ *----------------------------*/
+#body-rp a{
+	text-decoration: none;
+}
+
+#header-rp{
+	display: table;
+	width: 100%;
+	background-color: rgba(0,0,0,0.9);
+}
+
+#header-rp a{
+	text-decoration: none;
+}
+
+#branding-rp{
+	float: left;
+	opacity: 0.6;
+}
+
+#branding-rp:hover{
+	opacity: 1.0;
+}
+
+#search-bar{
+	float: left;
+	width: 60%;
+	margin: 5.5px 0 0 50px;
+	background-color: red;
+}
+
+#search-bar input{
+	border: none;
+	padding: 5px 5px 5px 10px;
+	width: 100%;
+	font-size: 0.9em;
+}
+
+#top-nav{
+	float: right;
+}
+
+#top-nav li{
+	list-style-type: none;
+	float: left;
+	margin: 10px;
+}
+
+
+#lsidebar,#rsidebar{
+	width: 25%;
+	background-color: green;
+}
+#lsidebar,#rsidebar,#main-wall{
+	float: left;
+}
+
+#main-wall{
+	width: 50%;
+	background-color: pink;
+}
+
+.card{
+	background-color: #fff;
+	border-radius: 2px;
+	padding: 10px 20px;
+	margin: 10px 0;
+	
+}
+
+.card,.card img{
+	box-shadow: 0px 0px 5px #000;
+}
+
+.card img{
+	height: 64px;
+	width: 64px;
+	border: 5px solid #fff;
+}
+
+.posts{
+	padding: 5px;
+	font-style: italic;
+}
+
+#post-section .card{
+	padding: 20px 40px 20px 20px;
+}
+#post-section button{
+	margin: 10px 0;
+}
+#main-wall textarea{
+	font-size: 1.2em;
+	width: 100%;
+	height: 100px;
+	padding: 10px;
+	resize: none;
+}
+
+#sidenav li{
+	list-style-type: none;
+	margin: 5px 0;
+	padding: 5px 0;
+}
+
+#cdown {
+	margin-left: 55%;
+}
+
+#more-menu li{
+	float: none;
+	display: none;
+}
+
+
+
+/*--------animation----------*/
+@-webkit-keyframes blink {
+  from, 50%, to {
+    opacity: 1;
+  }
+
+  25%, 75% {
+    opacity: 0.5;
+  }
+}
+
+@keyframes blink {
+  from, 50%, to {
+    opacity: 1;
+  }
+
+  25%, 75% {
+    opacity: 0.5;
+  }
+}
+
+@keyframes bounce{
+	50%{
+		margin-right: -30px;
+	}
+}
+
+
